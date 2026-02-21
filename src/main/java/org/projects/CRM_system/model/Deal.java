@@ -15,6 +15,13 @@ public class Deal {
         this.status = status;
     }
 
+    public void setStatus(DealStatus status) {
+        this.status = status;
+
+        client.notify("статус сделки изменен на " + status);
+        employee.notify("статус сделки изменен на " + status);
+    }
+
     public Client getClient() {
         return client;
     }
@@ -29,9 +36,5 @@ public class Deal {
 
     public DealStatus getStatus() {
         return status;
-    }
-
-    public void setStatus(DealStatus status) {
-        this.status = status;
     }
 }

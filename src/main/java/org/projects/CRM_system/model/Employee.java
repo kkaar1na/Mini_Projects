@@ -1,6 +1,7 @@
 package org.projects.CRM_system.model;
 
-public class Employee {
+public class Employee implements Notifiable {
+
     private String name;
     private double commissionRate;
     private String job;
@@ -21,5 +22,10 @@ public class Employee {
 
     public String getJob() {
         return job;
+    }
+
+    @Override
+    public void notify(String message) {
+        System.out.println("уведомление сотруднику " + name + ": " + message);
     }
 }

@@ -1,6 +1,6 @@
-package org.example.TODOLIST;
+package org.projects.TODOLIST;
 
-import org.example.TODOLIST.controller.ToDoController;
+import org.projects.TODOLIST.controller.ToDoController;
 
 public class Main {
     public static void main(String[] args) {

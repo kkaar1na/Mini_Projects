@@ -1,8 +1,8 @@
-package org.example.TODOLIST.controller;
+package org.projects.TODOLIST.controller;
 
-import org.example.TODOLIST.model.Task;
-import org.example.TODOLIST.model.TaskStatus;
-import org.example.TODOLIST.view.ToDoView;
+import org.projects.TODOLIST.model.Task;
+import org.projects.TODOLIST.model.TaskStatus;
+import org.projects.TODOLIST.view.ToDoView;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;

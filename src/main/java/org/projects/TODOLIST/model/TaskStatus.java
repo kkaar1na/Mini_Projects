@@ -1,4 +1,4 @@
-package org.example.TODOLIST.model;
+package org.projects.TODOLIST.model;
 
 public enum TaskStatus {
     NEW,

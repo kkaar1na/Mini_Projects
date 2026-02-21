@@ -1,6 +1,7 @@
 package org.projects.CRM_system.model;
 
-public class Client {
+public class Client implements Notifiable {
+
     private String name;
     private String email;
     private String phone;
@@ -13,5 +14,10 @@ public class Client {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public void notify(String message) {
+        System.out.println("уведомление клиенту " + name + ": " + message);
     }
 }

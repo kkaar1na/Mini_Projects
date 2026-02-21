@@ -1,7 +1,7 @@
-package org.example.TODOLIST.view;
+package org.projects.TODOLIST.view;
 
-import org.example.TODOLIST.model.Task;
-import org.example.TODOLIST.model.TaskStatus;
+import org.projects.TODOLIST.model.Task;
+import org.projects.TODOLIST.model.TaskStatus;
 
 import java.util.List;
 import java.util.Scanner;
